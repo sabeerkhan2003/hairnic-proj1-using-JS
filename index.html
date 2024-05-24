@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hairnic</title>
+    <link rel="shortcut icon" href="./img/shampoo-1.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+  </head>
+<body class="overflow-x-hidden">
+<!-- marqueee -->
+<div class="bg-black rounded-5 d-flex justify-content-center align-items-center position-fixed" id="progress" style="width: 50px; height: 50px; bottom: 30px; right: 30px; cursor: pointer;">
+  <i class="fa-solid fa-up-long fs-5" style="color: #ffffff;"></i>
+</div>
+  <!-- nav -->
+    <nav class="navbar navbar-expand-lg nav ">
+        <div class="container-fluid">
+          <a class="navbar-brand text-light fs-1 fw-bold ms-3" href="#">Hairnic</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse mark=#90BC79 " id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 d-lg-none">
+              <li class="nav-item">
+                <a class="nav-link active text-light" aria-current="page" href="#home">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#products">Products</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#features">Features</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+              </li>
+            </ul>
+        </div>
+        <ul class="d-none d-lg-flex list-unstyled gap-4 pt-lg-3 me-3 fs-5 fw-medium">
+         <li class="nav-item ">
+             <a class="nav-link active text-light" aria-current="page" href="#home">Home</a>
+           </li>
+           <li class="nav-item">
+            <a class="nav-link " href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#products">Products</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#features">Features</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
+        <button type="button " class="btn btn-dark me-5 d-none d-lg-block btn-hover ">Shop now</button>
+        </div>
+      </nav> 
+<!-- Hero  -->
+<div class=" hero" id="home">
+    <div class="row">
+        <div class="col-12 col-lg-6 d-flex flex-column justify-content-center p-lg-5  mt-lg-0 mt-5 align-items-center align-items-lg-start animate__animated animate__backInLeft animate__delay-1s">
+            <h3 class="fs-3 text-light">Natural & Organic</h3>
+            <h1 class="display-2 fw-bold text-light text-center text-lg-start">Hair <span class="fw-light">Shampoo</span> For Healthy Hair</h1>
+            <p class="text-white text-center text-lg-start">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, ab fugiat architecto sunt sequi, nam quam quasi dolore cumque debitis, soluta placeat nobis odit dignissimos illo officiis. Illum, necessitatibus inventore.</p>
+            <div class="d-flex gap-3 flex-column flex-lg-row flex-md-row">
+                <button type="button" class="btn btn-success fs-5 hero-btn border-3 text-light ">Shop Now</button>
+                <button type="button" class="btn btn-success fs-5 hero-btn  border-3 text-light">Contact Us</button>
+            </div>
+        </div>
+        <div class="col-12 col-lg-6 mt-5 mt-lg-0 animate__animated animate__backInDown animate__delay-2s">
+            <img src="./img/shampoo.png" class="shampoo img-fluid mb-5" alt="shampoo">
+        </div>
+    </div>
+</div>
+<!-- Features -->
+<div class="container-fluid mt-5" id="features">
+    <div class="row">
+        <div class="col-12 col-lg-4 mt-4 mt-lg-0">
+          <div class="features px-5 py-5">
+            <div class="features-b p-5 d-flex flex-column align-items-center justify-content-center">
+               <i class="fa-solid fa-leaf fa-3x"  style="color: #182300;"></i>
+              <h5 class="text-center text-light pt-3  ">Natural</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-lg-4 mt-4 mt-lg-0">
+          <div class="features px-5 py-5">
+            <div class="features-b p-5 d-flex flex-column align-items-center justify-content-center">
+               <i class="fa-solid fa-droplet-slash fa-3x"  style="color: #182300;"></i>
+              <h5 class="text-center text-light pt-3">Anti Hair Fall</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-lg-4 mt-4 mt-lg-0">
+          <div class="features px-5 py-5">
+            <div class="features-b p-5 d-flex flex-column align-items-center justify-content-center">
+               <i class="fa-solid fa-xmark fa-3x"  style="color: #182300;"></i>
+              <h5 class="text-center text-light pt-3">Hypoallergenic</h5>
+            </div>
+          </div>
+        </div>
+    </div>
+</div>
+<!-- explain -->
+<div class="container mt-5 " id="about">
+  <div class="row">
+    <div class="col-12 col-lg-6">
+      <img src="./img/shampoo-1.png" alt="product-1" class="img-fluid animate__animated animate__jello animate__slower animate__infinite">
+    </div>
+    <div class="col-12 col-lg-6 exp d-flex flex-column  justify-content-center align-items-center align-items-lg-start">
+      <h1 class="fw-light text-dark fs-1"><span class="fw-bold fs-1">Healthy Hair </span>Is A Symbol Of Our Beauty</h1>
+      <p class="mt-2 fs-5 ">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis aliquet, erat non malesuada consequat, nibh erat tempus risus, vitae porttitor purus nisl vitae purus. Praesent tristique odio ut rutrum pellentesque. Fusce eget molestie est, at rutrum est.</p>
+      <p class="mt-2 fs-5 ">Aliqu diam amet diam et eos labore. Clita erat ipsum et lorem et sit, sed stet no labore lorem sit. Sanctus clita duo justo et tempor.</p>
+      <div>
+        <button type="button " class="btn fs-4 btn-hover text-light mt-2 btn-shop">Shop now</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Deals -->
+<div class=" mt-5 deals">
+  <div class="row">
+    <div class="col-12 col-lg-6 mt-5">
+      <img src="./img/shampoo-2.png" alt="shampoo-2" class="img-fluid shampoo animate__animated animate__jackInTheBox animate__slower">
+    </div>
+    <div class="col-12 col-lg-6 d-flex justify-content-center align-items-center p-4 mt-5 mt-lg-0 ">
+      <div class="container bg-white p-4 d-flex justify-content-center align-items-center ">
+        <div class="border bg-white text-center px-lg-5 py-lg-5"> 
+          <p class="mt-2">Natural & Organic Shampoo</p>
+          <h2 class="fw-bold">DEALS OF THE DAY</h2>
+          <h1 class="display-4 fw-bold deal mt-4">$99.99</h1>
+          <h5 class="mt-4 fw-bold fs-4">Fresh Organic Shampoo</h5>
+          <p class="fs-5 fw-light">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque quia .</p>
+         <div class="counter d-flex gap-lg-3 justify-content-evenly">
+          <div class="box d-flex flex-column align-items-center" >
+            <h2 class="display-6 fw-bold" id="days">00</h2>
+            <span class="fw-light fst-italic">-Days-</span>
+          </div>
+          <div class="box d-flex flex-column align-items-center">
+            <h2 class="display-6 fw-bold"  id="hours">00</h2>
+            <span class="fw-light fst-italic">-Hours-</span>
+          </div>
+          <div class="box d-flex flex-column align-items-center">
+            <h2 class="display-6 fw-bold"  id="minutes">00</h2>
+            <span class="fw-light fst-italic">-Minutes-</span>
+          </div>
+          <div class="box d-flex flex-column align-items-center">
+            <h2 class="display-6 fw-bold"  id="seconds">00</h2>
+            <span class="fw-light fst-italic">-Seconds-</span>
+          </div>
+         </div>
+         <div class="mb-4 mb-lg-0">
+          <button type="button " class="btn fs-4 btn-hover text-light  btn-shop mt-3 ">Shop now</button>
+         </div>
+        </div>
+        </div>
+      </div>
+    </div>
+  </div>
+<!-- benifits -->
+<div class="container d-flex  align-items-center justify-content-center flex-column mt-5">
+  <h1 class="text-center fw-light w-50">Best Benefits Of Our <span class="deal fw-bold ">Natural Hair Shampoo</span></h1>
+  <p class="text-center fs-5 w-50 fw-light">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis aliquet, erat non malesuada consequat, nibh erat tempus risus.</p>
+</div>
+<div class="container-fluid mt-5">
+  <div class="row">
+    <div class="col-12 col-lg-4 d-flex flex-column justify-content-center ps-5">
+      <div class="beni-1 d-flex gap-4">
+        <div class="btn-square rounded-circle border d-flex align-items-center justify-content-center flex-shrink-0" style="width: 80px; ; height: 80px;">
+          <i class="fa-solid fa-check fa-2x " style="color: #90BC79;"></i>
+      </div>
+      <div class="cont">
+        <h5 class="fw-bold fs-4">Natural & Organic</h5>
+      <p style="height: 4px; width: 100px; background-color: #E3EEDD;"></p>
+      <p class="fs-5 w-75 fw-light">Lorem ipsum dolor sit amet adipiscing elit aliquet.</p>
+      </div>
+      </div>
+  
+      <div class="beni-2 d-flex gap-4">
+        <div class="btn-square rounded-circle border d-flex align-items-center justify-content-center flex-shrink-0" style="width: 80px; height: 80px;">
+          <i class="fa-solid fa-check fa-2x " style="color: #90BC79;"></i>
+      </div>
+      <div class="cont">
+        <h5 class="fw-bold fs-4">Anti Hair Fall </h5>
+      <p style="height: 4px; width: 100px; background-color: #E3EEDD;"></p>
+      <p class="fs-5 w-75 fw-light">Lorem ipsum dolor sit amet adipiscing elit aliquet.</p>
+      </div>
+      </div>
+      <div class="beni-3 d-flex gap-4">
+        <div class="btn-square rounded-circle border d-flex align-items-center justify-content-center flex-shrink-0" style="width: 80px; height: 80px;">
+          <i class="fa-solid fa-check fa-2x " style="color: #90BC79;"></i>
+      </div>
+      <div class="cont">
+        <h5 class="fw-bold fs-4">Anti-dandruff</h5>
+      <p style="height: 4px; width: 100px; background-color: #E3EEDD;"></p>
+      <p class="fs-5 w-75 fw-light">Lorem ipsum dolor sit amet adipiscing elit aliquet.</p>
+      </div>
+      </div>
+    </div>
+    <div class="col-12 col-lg-4 d-flex flex-column justify-content-center ">
+      <img src="./img/shampoo.png" alt="shampoo" class="img-fluid animate__infinite animate__animated animate__headShake   animate__slower">
+    </div>
+    <div class="col-12 col-lg-4 d-flex flex-column justify-content-center ps-5">
+      <div class="beni-1 d-flex gap-4">
+        <div class="btn-square rounded-circle border d-flex align-items-center justify-content-center flex-shrink-0" style="width: 80px; ; height: 80px;">
+          <i class="fa-solid fa-check fa-2x " style="color: #90BC79;"></i>
+      </div>
+      <div class="cont">
+        <h5 class="fw-bold fs-4">No Internal Side Effect</h5>
+      <p style="height: 4px; width: 100px; background-color: #E3EEDD;"></p>
+      <p class="fs-5 w-75 fw-light">Lorem ipsum dolor sit amet adipiscing elit aliquet.</p>
+      </div>
+      </div>
+  
+      <div class="beni-2 d-flex gap-4">
+        <div class="btn-square rounded-circle border d-flex align-items-center justify-content-center flex-shrink-0" style="width: 80px; height: 80px;">
+          <i class="fa-solid fa-check fa-2x " style="color: #90BC79;"></i>
+      </div>
+      <div class="cont">
+        <h5 class="fw-bold fs-4">No Skin Irritation </h5>
+      <p style="height: 4px; width: 100px; background-color: #E3EEDD;"></p>
+      <p class="fs-5 w-75 fw-light">Lorem ipsum dolor sit amet adipiscing elit aliquet.</p>
+      </div>
+      </div>
+      <div class="beni-3 d-flex gap-4">
+        <div class="btn-square rounded-circle border d-flex align-items-center justify-content-center flex-shrink-0" style="width: 80px; height: 80px;">
+          <i class="fa-solid fa-check fa-2x " style="color: #90BC79;"></i>
+      </div>
+      <div class="cont">
+        <h5 class="fw-bold fs-4">No Artificial Smell</h5>
+      <p style="height: 4px; width: 100px; background-color: #E3EEDD;"></p>
+      <p class="fs-5 w-75 fw-light">Lorem ipsum dolor sit amet adipiscing elit aliquet.</p>
+      </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- how to use -->
+<div class="use mt-5 w-100" style="background-image: url(./img/bg.png); background-color:#90BC79;">
+  <div class="mt-5 d-flex flex-column justify-content-center align-items-center pt-5">
+    <h1 class="text-white w-50 text-center "><span class="fw-light" style="color: #3C5222; ">How To Use Our</span> Natural & Organic <span class="fw-light" style="color: #3C5222;"> Hair Shampoo</span></h1>
+    <p class="text-white w-50 text-center fs-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis aliquet, erat non malesuada consequat, nibh erat tempus risus.</p>
+  </div>
+  <div class="row">
+    <div class="col-12 col-lg-4 d-flex justify-content-center flex-column align-items-center mb-5 beni">
+      <div class="beni-1 d-flex gap-4 mt-5  ">
+        <div class="btn-square rounded-circle border d-flex align-items-center justify-content-center flex-shrink-0" style="width: 120px; ; height: 120px;">
+          <i class="fa-solid fa-house fa-3x " style="color: #182300;"></i>
+      </div>
+    </div>
+    <div class="cont d-flex flex-column justify-content-center align-items-center mb-3">
+      <h5 class="fw-bold fs-4 text-white">Wash Hair With Water</h5>
+    <p style="height: 4px; width: 100px; background-color: #E3EEDD;"></p>
+    <p class="fs-5 w-75 fw-light text-white text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis aliquet, erat non malesuada consequat.</p>
+    </div>
+    </div>
+    <div class="col-12 col-lg-4  d-flex justify-content-center flex-column align-items-center mb-5  beni">
+      <div class="beni-1 d-flex gap-4 mt-5 ">
+        <div class="btn-square rounded-circle border d-flex align-items-center justify-content-center flex-shrink-0" style="width: 120px; ; height: 120px;">
+          <i class="fa-solid fa-house fa-3x " style="color: #182300;"></i>
+      </div>
+    </div>
+    <div class="cont d-flex flex-column justify-content-center align-items-center mb-3">
+      <h5 class="fw-bold fs-4 text-white">Apply Shampoo On Hair</h5>
+    <p style="height: 4px; width: 100px; background-color: #E3EEDD;"></p>
+    <p class="fs-5 w-75 fw-light text-white text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis aliquet, erat non malesuada consequat.</p>
+    </div>
+    </div>
+    <div class="col-12 col-lg-4  d-flex justify-content-center flex-column align-items-center mb-5  beni">
+      <div class="beni-1 d-flex gap-4 mt-5">
+        <div class="btn-square rounded-circle border d-flex align-items-center justify-content-center flex-shrink-0" style="width: 120px; ; height: 120px;">
+          <i class="fa-solid fa-house fa-3x " style="color: #182300;"></i>
+      </div>
+    </div>
+    <div class="cont d-flex flex-column justify-content-center align-items-center mb-3">
+      <h5 class="fw-bold fs-4 text-white">Wait 5 Mins And Wash</h5>
+    <p style="height: 4px; width: 100px; background-color: #E3EEDD;"></p>
+    <p class="fs-5 w-75 fw-light text-white text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis aliquet, erat non malesuada consequat.</p>
+    </div>
+    </div>
+  </div>
+</div>
+<!-- products -->
+<div class="products-content mt-5 d-flex flex-column justify-content-center align-items-center" id="products">
+  <h1 class="fw-light">Our Natural <span class="fw-bold" style="color: #90BC79;">Hair Products</span></h1>
+  <p class="fw-light fs-5 text-center mt-3 w-50">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis aliquet, erat non malesuada consequat, nibh erat tempus risus.</p>
+</div>
+<div class="container-fluid mt-5">
+  <div class="row">
+    <div class="col-12 col-lg-3 col-md-6 mt-md-0">
+      <div class="product border p-3 d-flex flex-column justify-content-center align-items-center">
+        <img src="./img/product-1.png" alt="product-1" class="img-fluid mt-4">
+        <div class="rating d-flex  align-items-center">
+          <button class="star fs-4">&#9734</button>
+          <button class="star fs-4">&#9734</button>
+          <button class="star fs-4">&#9734</button>
+          <button class="star fs-4">&#9734</button>
+          <button class="star fs-4">&#9734</button>
+          <p id="current"  class="pt-3" style="color: #90BC79;"></p>
+        </div>
+        <h5 class="fs-4">Hair Shining Shampoo</h5>
+        <span class="fs-3 fw-bold" style="color: #90BC79;">$99.99</span>
+        <button type="button" class="btn btn-success mt-2 fs-5 mb-2 product-btn border-3">Add To Cart</button>
+      </div>
+    </div>
+    <div class="col-12 col-lg-3 mt-5 mt-lg-0 col-md-6 mt-md-0">
+      <div class="product border p-3 d-flex flex-column justify-content-center align-items-center">
+        <img src="./img/product-2.png" alt="product-1" class="img-fluid mt-4">
+        <div class="rating d-flex  align-items-center">
+          <button class="star-2 fs-4">&#9734</button>
+          <button class="star-2 fs-4">&#9734</button>
+          <button class="star-2 fs-4">&#9734</button>
+          <button class="star-2 fs-4">&#9734</button>
+          <button class="star-2 fs-4">&#9734</button>
+          <p id="current-2"  class="pt-3" style="color: #90BC79;"></p>
+        </div>
+        <h5 class="fs-4">Anti-dandruff Shampoo</h5>
+        <span class="fs-3 fw-bold" style="color: #90BC79;">$99.99</span>
+        <button type="button" class="btn btn-success mt-2 fs-5 mb-2 product-btn border-3">Add To Cart</button>
+      </div>
+    </div>
+    <div class="col-12 col-lg-3 mt-5 mt-lg-0 col-md-6 mt-md-5">
+      <div class="product border p-3 d-flex flex-column justify-content-center align-items-center">
+        <img src="./img/product-1.png" alt="product-1" class="img-fluid mt-4">
+        <div class="rating d-flex  align-items-center">
+          <button class="star-3 fs-4">&#9734</button>
+          <button class="star-3 fs-4">&#9734</button>
+          <button class="star-3 fs-4">&#9734</button>
+          <button class="star-3 fs-4">&#9734</button>
+          <button class="star-3 fs-4">&#9734</button>
+          <p id="current-3"  class="pt-3" style="color: #90BC79;"></p>
+        </div>
+        <h5 class="fs-4">Anti Hair Fall Shampoo</h5>
+        <span class="fs-3 fw-bold" style="color: #90BC79;">$99.99</span>
+        <button type="button" class="btn btn-success mt-2 fs-5 mb-2 product-btn border-3">Add To Cart</button>
+      </div>
+    </div>
+    <div class="col-12 col-lg-3 mt-5 mt-lg-0 col-md-6 mt-md-5">
+      <div class="product border p-3 d-flex flex-column justify-content-center align-items-center">
+        <img src="./img/product-2.png" alt="product-1" class="img-fluid mt-4">
+        <div class="rating d-flex  align-items-center">
+          <button class="star-4 fs-4">&#9734</button>
+          <button class="star-4 fs-4">&#9734</button>
+          <button class="star-4 fs-4">&#9734</button>
+          <button class="star-4 fs-4">&#9734</button>
+          <button class="star-4 fs-4">&#9734</button>
+          <p id="current-4"  class="pt-3" style="color: #90BC79;"></p>
+        </div>
+        <h5 class="fs-4">Hair Growing Shampo</h5>
+        <span class="fs-3 fw-bold" style="color: #90BC79;">$99.99</span>
+        <button type="button" class="btn btn-success mt-2 fs-5 mb-2 product-btn border-3">Add To Cart</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- testimonal -->
+
+<div class="row d-flex flex-column justify-content-center align-items-center pt-5 mt-5" style="background-color: #90BC79; background-image: url(./img/bg.png);">
+<h5 class="text-white text-center fst-italic fs-4  ">Testimonial</h5>
+<h1 class=" fw-bold text-center" style="color: #182300;">What our clients say about our Hairnic</h1>
+<div class="d-flex flex-column align-items-center justify-content-center gap-5 position-relative col-12 ">
+ <div style="width: 40px; height: 40px; background-color: white; bottom: 50%; left: 20px; cursor: pointer;" class="d-flex align-items-center justify-content-center rounded-circle position-absolute" id="left" >
+  <i class="fa-solid fa-chevron-left" style="color: #545454;" ></i>
+ </div>
+ <div style="width: 40px; height: 40px; background-color: white; right: 20px;bottom: 50%; cursor: pointer;" class="d-flex align-items-center justify-content-center rounded-circle position-absolute" id="right" >
+  <i class="fa-solid fa-chevron-right" style="color: #545454;" ></i>
+ </div>
+  <div class="d-flex gap-4 align-items-center pt-3">
+    <img src="./img/testimonial-2.jpg" alt="" class="img-fluid rounded-circle" id="img">
+    <div><h4 class="fs-3 text-success" id="name">Ashik ali</h4>
+      <h5 class="text-light" id="role">Web Developer</h5></div>
+  </div>
+  <p class="w-75 text-white mb-5 " id="content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque placeat sit tempore vel iure natus nesciunt corporis rerum eaque facere! Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, doloribus?</p>
+</div>
+</div>
+<hr> 
+<!-- Newsletter -->
+<div class="news d-flex justify-content-center align-items-center" style="background-image: url(./img/bg.png); background-color: #90BC79">
+  <div class="content">
+    <h1 class="text-white mt-5 text-center"><span class="fw-light" style="color: #182300;">Let's Subscribe </span>The Newsletter</h1>
+    <p class="text-center mt-4 text-white fs-5">Subscribe now to get 30% discount on any of our products</p>
+    <div class="input  d-flex align-items-center justify-content-center ">
+      <input type="email" class="w-75 text-center fs-5 p-1" id="email" placeholder="Enter Your Email" style="border: none; background-color: #B9D5AB;">
+      <button style="border: none; background: unset; color: #182300;" onclick="email()"><i class="fa-brands fa-telegram fa-2x" style="color: #182300;"></i> </button>
+    </div>
+    <p class="text-center mt-4 text-white fs-5 mb-4" id="res"></p>
+  </div>
+</div>
+  <!-- footer -->
+<div class=" container-fluid mt-3" id="contact">
+  <div class="row p-2 ">
+    <div class="col-12 col-lg-3 col-md-6  ">
+      <h1 class="display-5 fw-bold" style="color: #90BC79;">Hairnic</h1>
+      <p class=" fs-5  ">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis aliquet, erat non malesuada consequat, nibh erat tempus risus, vitae porttitor purus nisl vitae purus.</p>
+    </div>
+    <div class="col-12 col-lg-3 col-md-6 d-flex flex-column gap-3 ">
+      <h5 class="fs-4">Get In Touch</h5>
+      <ul class="list-unstyled fs-5 d-flex flex-column gap-3">
+        <li><i class="fa-solid fa-location-dot  me-3 " style="color: #656565;"></i>123 Street, New York, USA</li>
+        <li><i class="fa-solid fa-phone  me-3" style="color: #656565;"></i>+012 345 67890</li>
+        <li><i class="fa-solid fa-envelope me-3" style="color: #656565;"></i>info@example.com</li>
+      </ul>
+     <div class="d-flex gap-4 "> 
+      <div class=" rounded-circle d-flex justify-content-center align-items-center flex-shrink-0 ico" style="border: solid #90BC79; width: 40px; height: 40px;">
+      <i class="fa-brands fa-twitter ico-i" style="color: #90BC79;"></i>
+    </div>
+      <div class=" rounded-circle d-flex justify-content-center align-items-center flex-shrink-0 ico" style="border: solid #90BC79; width: 40px; height: 40px;">
+      <i class="fa-brands fa-facebook-f" style="color: #90BC79;"></i>
+    </div>
+      <div class=" rounded-circle d-flex justify-content-center align-items-center flex-shrink-0 ico" style="border: solid #90BC79; width: 40px; height: 40px;">
+      <i class="fa-brands fa-instagram" style="color: #90BC79;"></i>
+    </div>
+      <div class=" rounded-circle d-flex justify-content-center align-items-center flex-shrink-0 ico" style="border: solid #90BC79; width: 40px; height: 40px;">
+      <i class="fa-brands fa-linkedin-in" style="color: #90BC79;"></i>
+    </div>
+    </div>
+    </div>
+    <div class="col-12 col-lg-3 col-md-6 d-flex flex-column gap-3 mt-3 mt-lg-0 mt-md-3">
+      <h5 class="fs-4 ">Our Products</h5>
+      <ul class="list-unstyled  fs-5 list d-flex flex-column gap-2">
+        <li><a href="" class="text-decoration-none"><i class="fa fa-chevron-right me-2" style="color: #656565;"></i>Hair Shining Shampoo</a></li>
+        <li><a href="" class="text-decoration-none"><i class="fa fa-chevron-right me-2" style="color: #656565;"></i>Anti-Dandruff Shampoo</a></li>
+        <li><a href="" class="text-decoration-none"><i class="fa fa-chevron-right me-2" style="color: #656565;"></i>Anti-Hairfall Shampoo</a></li>
+        <li><a href="" class="text-decoration-none"><i class="fa fa-chevron-right me-2" style="color: #656565;"></i>Hair Growing Shampoo</a></li>
+        <li><a href="" class="text-decoration-none"><i class="fa fa-chevron-right me-2" style="color: #656565;"></i>Anti-Smell Shampoo</a></li>
+      </ul>
+    </div>
+    <div class="col-12 col-lg-3 col-md-6 d-flex flex-column gap-3 mt-lg-0 mt-md-3">
+      <h5 class="fs-4">Popular Link</h5>
+      <ul class="list-unstyled fs-5 list d-flex flex-column gap-2">
+        <li><a href="" class="text-decoration-none"><i class="fa fa-chevron-right me-2" style="color: #656565;"></i>About Us</a></li>
+        <li><a href="" class="text-decoration-none"><i class="fa fa-chevron-right me-2" style="color: #656565;"></i>Contact Us</a></li>
+        <li><a href="" class="text-decoration-none"><i class="fa fa-chevron-right me-2" style="color: #656565;"></i>Privacy Policy</a></li>
+        <li><a href="" class="text-decoration-none"><i class="fa fa-chevron-right me-2" style="color: #656565;"></i>Terms & Condition</a></li>
+        <li><a href="" class="text-decoration-none"><i class="fa fa-chevron-right me-2" style="color: #656565;"></i>Career</a></li>
+      </ul>
+    </div>
+   <div class="copyright d-flex align-items-center flex-column">
+     <hr class="w-75 text-center">
+     <div>
+      <i class="fa-regular fa-copyright " style="color: #000000;"></i>
+      <span class="fs-5">copyrights@2023 | Design by <span class="text-success  fs-5">Musthafa</span></span>
+     </div>
+     </div>
+    </div>
+  </div>
+<!-- script -->
+<script src="testimonal.js"></script>
+    <script src="script.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>

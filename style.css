@@ -1,0 +1,157 @@
+    body{
+    cursor: url("./img/icons8-cursor-35.png"),auto;
+}
+.nav{
+    background-color: #90BC79;
+    background-image: url(./img/bg.png);
+}
+.nav-item a{
+    color: #445c2e;
+}
+.nav-item a:hover{
+    color: white;
+}
+.btn-hover:hover{
+   background-color: #90BC79 ;
+    color: #445c2e;
+    transform: scale(1.1);
+}
+/* --hero-- */
+.hero{
+    background-image: url(./img/bg.png);
+    background-color: #90BC79;
+}
+.hero span{
+    color: #445c2e;
+}
+.shampoo{
+   animation: pulse 6s linear;
+    animation-iteration-count: infinite;
+    transition: 2s;
+}
+@keyframes pulse {
+    0%{
+       transform: scale(1.0);
+    }
+    50%{
+        transform: scale(0.9);
+    }
+    100%{
+        transform: scale(1.0);
+    }
+}
+.hero-btn{
+    background-color: #182300;
+    border-color: #182300;
+}
+.hero-btn:nth-child(2){
+    background-color: transparent;
+    border-color: #182300;
+}
+.hero-btn:nth-child(2):hover{
+    background-color: #182300;
+}
+.hero-btn:nth-child(1):hover{
+    background-color:transparent;
+    border-color: #182300;
+}
+/* -features- */
+.features{
+    background-color: #90BC79;
+    background-image: url(./img/bg.png);
+    background-size: 400px;
+}
+.features-b{
+    border: 4px solid #A6C994;
+}
+.features:hover{
+    cursor: pointer;
+    background-color: #445c2e;
+    color: #182300;
+}
+/* explain */
+.exp span{
+    color: #90BC79;
+}
+.btn-shop{
+    background-color: #90BC79;
+}
+.btn-shop:hover{
+    background-color: #182300;
+}
+/* -Deals */
+.deals{
+    background-color: #90BC79;
+    background-image: url(./img/bg.png);
+}
+.deal{
+    color: #90BC79;
+}
+/* benifits */
+.beni:hover{
+    background-image: url(./img/bg.png);
+    cursor: pointer;
+    background-color: #445c2e;
+    color: #182300;
+}
+/* -products- */
+.star{
+    border: none;
+    background: unset;
+    cursor: pointer;
+    color: #90BC79;
+}
+.star-2{
+    border: none;
+    background: unset;
+    cursor: pointer;
+    color: #90BC79;
+}
+.star-3{
+    border: none;
+    background: unset;
+    cursor: pointer;
+    color: #90BC79;
+}
+.star-4{
+    border: none;
+    background: unset;
+    cursor: pointer;
+    color: #90BC79;
+}
+.product:hover{
+    margin-left: -10px;
+    margin-top: -10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border: none;
+}
+.product-btn{
+    background-color: transparent;
+    color: #90BC79;
+}
+.product-btn:hover{
+    background-color: #90BC79;
+    color: white;
+    border: #90BC79;
+}
+
+
+
+
+
+
+
+/* footer */
+.ico:hover{
+    background-color: #182300;
+    cursor: pointer;
+}
+.list li a{
+    color: #65656A;
+}
+.list li a:hover{
+    color: #90BC79;
+    margin-left: -10px;
+    margin-top: -10px;
+}
+
